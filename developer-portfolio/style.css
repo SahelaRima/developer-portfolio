@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+  
     
 }
 
@@ -35,4 +36,19 @@ color: white;
 .top-banner{
   background-image: url(images/top-banner.png);  
 background-repeat: no-repeat;
+}
+.dream-big img{
+    width: 90%;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.dream-big{
+    text-align: right;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+   
+
+    
 }
