@@ -9,21 +9,14 @@ h1{
 .Orange-color{
     color: orange;
 }
-section{
-    display: flex;
-  
-    
-}
-
  .half-width{
     width: 70%;
-    padding:100px;    
+    padding:100px;  
+ 
 }  
 .half-width img{
     width: 105%;
     padding-right: 60px;
-    
-
 }
 .link-button{
     text-decoration: none;
@@ -36,6 +29,7 @@ color: white;
 .top-banner{
   background-image: url(images/top-banner.png);  
 background-repeat: no-repeat;
+display: flex;
 }
 .dream-big img{
     width: 90%;
@@ -46,9 +40,44 @@ background-repeat: no-repeat;
     text-align: right;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
-   
-   
-
-    
+    background-position: right;  
+    display: flex;
+} 
+.flexible-container{
+    display: flex;
 }
+.experince-area{
+    padding-bottom: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+} 
+ .orange-color{
+     color: orange;
+}
+.area-item{
+    box-shadow: 10px 10px 30px;
+    width: 40%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 4%;
+    padding-top: 2%;
+   border-radius: 10px;
+  
+}
+  h1{
+      font-size: 60px;
+  }
+h2{
+    font-size: 35px;
+}
+ #web-developer-item{
+     border-left: 7px solid; 
+     background-image: linear-gradient(lightsalmon tomato);  
+ }
+ #web-developer-area{
+     border-left: 7px solid;
+ }
